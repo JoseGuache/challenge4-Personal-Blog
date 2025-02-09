@@ -1,0 +1,57 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 3px black;
+}
+
+main figure {
+    flex: 1 0 45%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    border-right: 3px black;
+    margin-right: 5px;
+    padding-top: 2%;
+}
+
+main figcaption {
+    background-image: linear-gradient(yellow, black);
+    width: 450px;
+    height: 450px;
+    padding: 0 20%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+main section {
+    flex: 1 0 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-left: 3px black;
+}
+
+main form {
+    padding: 0 3%;
+    width: 100%;
+}
+
+figcaption h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+section h2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+input,
+textarea {
+    padding: 0 3%;
+    width: 100%;
+}

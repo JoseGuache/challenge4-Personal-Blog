@@ -1,0 +1,60 @@
+main {
+    margin: 0 6px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 6px 3px;
+    border-bottom: 3px solid black;
+}
+
+header button {
+    width: 5%;
+    height: 80%;
+    margin-right: -75%;
+    margin-top: 0.5%;
+    padding: 5px;
+    background: black;
+    color: white;
+}
+
+main article {
+    margin: 2%;
+    padding: 2%;
+    height: 25vh;
+    border: 1px solid black;
+}
+
+.italic {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.sentence {
+    font-style: italic;
+    margin-bottom: 4%;
+}
+
+
+footer {
+    margin: 3px 6px;
+    padding-bottom: 25px;
+    border-top: 3px solid black;
+}
+
+footer p {
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+footer h3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3%;
+    font-size: smaller;
+}
+
